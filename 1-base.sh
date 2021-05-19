@@ -9,6 +9,9 @@
 
 echo -e "\nInstalling Base System\n"
 
+curl -s "https://archlinux.org/mirrorlist/?country=US" | sed -e 's/^#Server/Server/' -e '/^#/d' | rankmirrors -n 30 - > /etc/pacman.d/mirrorlist
+
+
 PKGS=(
 
     # --- XORG Display Rendering
