@@ -20,7 +20,7 @@ PKGS=(
     # UTILITIES -----------------------------------------------------------
 
     'i3lock-fancy'              # Screen locker
-    'synology-drive'            # Synology Drive
+    #'synology-drive'            # Synology Drive
     'freeoffice'                # Office Alternative
     
     # MEDIA ---------------------------------------------------------------
